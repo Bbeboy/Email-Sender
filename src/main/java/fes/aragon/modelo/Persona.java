@@ -84,7 +84,7 @@ public class Persona {
         ObservableList<Persona> lista= FXCollections.observableArrayList();
         lista.add(new Persona("Miguel Angel",
                 IsoChronology.INSTANCE.date(1976, 10, 6),
-                Sexo.MASCULINO,"mikeloco@fes.aragon"));
+                Sexo.MASCULINO,"mikeloco@fes.aragon")); //Agregar correos válidos para los destinarios
         lista.add(new Persona("Rebeca",
                 IsoChronology.INSTANCE.date(1989, 8, 16),
                 Sexo.FEMENINO,"rebe@fes.aragon"));
